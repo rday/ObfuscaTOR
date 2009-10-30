@@ -1,0 +1,26 @@
+ObfuscaTOR beta
+~~~~~~~~~~~~~~~
+
+ryanday2@gmail.com
+http://ryanday.net/
+
+
+The intended goal of this library is to allow easy development of social media plugins
+to display Tor bridge information to the mass public without computers being able to easily 
+record and filter those bridge addresses.
+
+
+I keep using the term 'CAPTCHA' to describe this, which I understand is incorrect.
+I'm not challenging anyone to solve a test, and this has nothing to do with authentication.
+The term 'CAPTCHA' is, however, recognized as 'Those pictures with letters that computers
+aren't supposed to be able to read'. That is why I am using it. Also, all the graphics
+rendering I've taken from Captcha libraries. Maybe we'll think of something more correct later.
+
+
+I've taken from the Easy Captcha library and the PHP Captcha libraries for all the
+algorithms. I've made a few modifications to allow for linebreaks and to remove some
+of the things not needed for this implementation. Other then that, all the credit really
+goes to the developers of those libraries.
+
+What I've added is the interface and captcha factory in an effort to make it easy to
+extend this system. Please see index.php for example usages.
