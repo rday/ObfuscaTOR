@@ -1,4 +1,13 @@
 <?php
+/**
+ * This is mean to be a quick example of how to use the library. For a more
+ * indepth example you can look at the ObfuscaTOR wordpress plugin.
+ *
+ * @author: Ryan Day <ryanday2@gmail.com>
+ * @link: http://ryanday.net/
+ * @license MIT
+ */
+
 require_once('CaptchaFactory.php');
 header('Content-Type: image/jpeg');
 

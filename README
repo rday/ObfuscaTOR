@@ -1,6 +1,5 @@
 ObfuscaTOR beta
 ~~~~~~~~~~~~~~~
-
 ryanday2@gmail.com
 http://ryanday.net/
 
@@ -24,3 +23,14 @@ goes to the developers of those libraries.
 
 What I've added is the interface and captcha factory in an effort to make it easy to
 extend this system. Please see index.php for example usages.
+
+
+FAQ:
+
+Q: Why are there fonts included?
+A: Well it turns out people have the audacity to keep their fonts in directories that don't line
+up with mine. Also webhosts seem to mix up what they feel like doing. 
+Anyways, heres the thing; This is meant to be just a library, and having a configurable font
+directory is going to be the responsibility of the user of the library. I'll remove this after
+more of the bugs are worked out and the font path is able to be passed into the classes. Until then
+it is just more portable to include known working fonts(because sizes do matter here) in a known location.
